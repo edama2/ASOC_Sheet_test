@@ -144,11 +144,13 @@ script MainViewController
 		## retrieve data
 		set pathList to {}
 		set theURLs to thePanel's URLs() as list
+		(*
 		repeat with aURL in theURLs
 			--log aURL's POSIX path
 			--set aPath to aURL's |path|() as text
 			set pathList's end to (aURL's POSIX path) --as alias
 		end repeat
+		*)
 		
 		log theURLs
 		
