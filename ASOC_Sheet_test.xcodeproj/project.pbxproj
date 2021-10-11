@@ -10,18 +10,47 @@
 		5E20BF972713C9D0006A39F7 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E20BF962713C9CF006A39F7 /* AppleScriptObjC.framework */; };
 		5E20BF9A2713C9D0006A39F7 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 5E20BF992713C9D0006A39F7 /* AppDelegate.applescript */; };
 		5E20BF9C2713C9E8006A39F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E20BF9B2713C9E8006A39F7 /* Assets.xcassets */; };
-		5E20BF9F2713C9E8006A39F7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E20BF9D2713C9E8006A39F7 /* MainMenu.xib */; };
 		5E20BFA22713C9E8006A39F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E20BFA12713C9E8006A39F7 /* main.m */; };
+		5E20BFC82713CAE2006A39F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E20BFC62713CAE2006A39F7 /* Main.storyboard */; };
+		5E20BFD32713CDE0006A39F7 /* MainViewController.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 5E20BFD22713CDE0006A39F7 /* MainViewController.applescript */; };
+		5E20C0352713E337006A39F7 /* SheetWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E20C0342713E31F006A39F7 /* SheetWrapper.framework */; };
+		5E20C0362713E337006A39F7 /* SheetWrapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5E20C0342713E31F006A39F7 /* SheetWrapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E20C0332713E31F006A39F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E20C02F2713E31F006A39F7 /* SheetWrapper.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5E20C0202713E2C4006A39F7;
+			remoteInfo = SheetWrapper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5E20BFD12713CBEC006A39F7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5E20C0362713E337006A39F7 /* SheetWrapper.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5E20BF932713C9CF006A39F7 /* ASOC_Sheet_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASOC_Sheet_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E20BF962713C9CF006A39F7 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
 		5E20BF992713C9D0006A39F7 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
 		5E20BF9B2713C9E8006A39F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5E20BF9E2713C9E8006A39F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		5E20BFA02713C9E8006A39F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E20BFA12713C9E8006A39F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E20BFC72713CAE2006A39F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E20BFD22713CDE0006A39F7 /* MainViewController.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = MainViewController.applescript; sourceTree = "<group>"; };
+		5E20C02F2713E31F006A39F7 /* SheetWrapper.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SheetWrapper.xcodeproj; path = SheetWrapper/SheetWrapper.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E20C0352713E337006A39F7 /* SheetWrapper.framework in Frameworks */,
 				5E20BF972713C9D0006A39F7 /* AppleScriptObjC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -42,6 +72,7 @@
 				5E20BF982713C9D0006A39F7 /* ASOC_Sheet_test */,
 				5E20BF952713C9CF006A39F7 /* Frameworks */,
 				5E20BF942713C9CF006A39F7 /* Products */,
+				5E20C02F2713E31F006A39F7 /* SheetWrapper.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,13 +95,22 @@
 		5E20BF982713C9D0006A39F7 /* ASOC_Sheet_test */ = {
 			isa = PBXGroup;
 			children = (
+				5E20BFD22713CDE0006A39F7 /* MainViewController.applescript */,
 				5E20BF992713C9D0006A39F7 /* AppDelegate.applescript */,
 				5E20BF9B2713C9E8006A39F7 /* Assets.xcassets */,
-				5E20BF9D2713C9E8006A39F7 /* MainMenu.xib */,
 				5E20BFA02713C9E8006A39F7 /* Info.plist */,
 				5E20BFA12713C9E8006A39F7 /* main.m */,
+				5E20BFC62713CAE2006A39F7 /* Main.storyboard */,
 			);
 			path = ASOC_Sheet_test;
+			sourceTree = "<group>";
+		};
+		5E20C0302713E31F006A39F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E20C0342713E31F006A39F7 /* SheetWrapper.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +123,7 @@
 				5E20BF8F2713C9CF006A39F7 /* Sources */,
 				5E20BF902713C9CF006A39F7 /* Frameworks */,
 				5E20BF912713C9CF006A39F7 /* Resources */,
+				5E20BFD12713CBEC006A39F7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -118,6 +159,12 @@
 			mainGroup = 5E20BF8A2713C9CF006A39F7;
 			productRefGroup = 5E20BF942713C9CF006A39F7 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5E20C0302713E31F006A39F7 /* Products */;
+					ProjectRef = 5E20C02F2713E31F006A39F7 /* SheetWrapper.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				5E20BF922713C9CF006A39F7 /* ASOC_Sheet_test */,
@@ -125,13 +172,23 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		5E20C0342713E31F006A39F7 /* SheetWrapper.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SheetWrapper.framework;
+			remoteRef = 5E20C0332713E31F006A39F7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		5E20BF912713C9CF006A39F7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5E20BF9C2713C9E8006A39F7 /* Assets.xcassets in Resources */,
-				5E20BF9F2713C9E8006A39F7 /* MainMenu.xib in Resources */,
+				5E20BFC82713CAE2006A39F7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,18 +201,19 @@
 			files = (
 				5E20BFA22713C9E8006A39F7 /* main.m in Sources */,
 				5E20BF9A2713C9D0006A39F7 /* AppDelegate.applescript in Sources */,
+				5E20BFD32713CDE0006A39F7 /* MainViewController.applescript in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5E20BF9D2713C9E8006A39F7 /* MainMenu.xib */ = {
+		5E20BFC62713CAE2006A39F7 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5E20BF9E2713C9E8006A39F7 /* Base */,
+				5E20BFC72713CAE2006A39F7 /* Base */,
 			);
-			name = MainMenu.xib;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -215,6 +273,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OSACOMPILE_EXECUTE_ONLY = YES;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -266,6 +325,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OSACOMPILE_EXECUTE_ONLY = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
