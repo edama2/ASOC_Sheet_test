@@ -15,7 +15,6 @@
 		5E20BFD32713CDE0006A39F7 /* MainViewController.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 5E20BFD22713CDE0006A39F7 /* MainViewController.applescript */; };
 		5E20C0352713E337006A39F7 /* SheetWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E20C0342713E31F006A39F7 /* SheetWrapper.framework */; };
 		5E20C0362713E337006A39F7 /* SheetWrapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5E20C0342713E31F006A39F7 /* SheetWrapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5E3F582927150A5B00271BD9 /* img in Resources */ = {isa = PBXBuildFile; fileRef = 5E3F582827150A5B00271BD9 /* img */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -192,7 +191,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E3F582927150A5B00271BD9 /* img in Resources */,
 				5E20BF9C2713C9E8006A39F7 /* Assets.xcassets in Resources */,
 				5E20BFC82713CAE2006A39F7 /* Main.storyboard in Resources */,
 			);

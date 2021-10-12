@@ -14,7 +14,7 @@
     printf("Test test テスト\n");
 }
 
-//windowとalertを指定してシートとして表示する
+//windowとpanelを指定してシートとして表示する
 //https://stackoverflow.com/questions/604768/wait-for-nsalert-beginsheetmodalforwindow
 
 + (NSInteger)beginSheetModalForWindow:(id)window withPanel:(id)panel {

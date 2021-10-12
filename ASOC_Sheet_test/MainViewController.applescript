@@ -1,46 +1,18 @@
-#MARK: NSUserDefaults keys
-property _k_cache : "cache"
-property _k_download_directory : "download_directory"
-property _k_filetype : "filetype"
-property _k_is_continue : "is_continue"
-property _k_no_clobber : "no_clobber"
-property _k_no_directory : "no_directory"
-property _k_no_host_directory : "no_host_directory"
-property _k_select_option : "select_option"
-property _k_span_hosts : "span_hosts"
-property _k_user_agent : "user_agent"
-property _k_user_retry : "retry"
-property _k_wait : "wait"
-property _k_wget_log : "wget_log"
-property _k_wget_path : "wget_path"
-property _k_wget_time_out : "time_out"
-property _k_window : "window"
-property _k_when_done : "when_done"
-property _k_quit_app : "quit_app"
-property _k_depth_level : "depth_level"
-
-
+#MARK: 
 script MainViewController
 	property parent : class "NSViewController"
 	
 	#MARK: IBOutlets
-	property textFieldTextPath : missing value --> ダウンロード用のテキストpath
-	property textFieldURL : missing value --> ダウンロードURL
-	property depthLevel : missing value --> ダウンロード階層
-	property popUpRecursive : missing value --> 再帰ダウンロードのポップアップメニュー
-	property comboBoxUserAgent : missing value --> ユーザーエージェントのコンボボックス
 	--property mainWindow : missing value
 	
 	#MARK: Buinding
-	property isComboBoxEnabled : true
-	property isBusy : false
-	property strVarsion : "" --> ダウンロードURL
+	--property isBusy : false
 	
 	#MARK: 
-	property _userAgents : {} --> ユーザーエージェントのコンボボックスのデータ
-	global _wgetObj
+	--global _wgetObj
 	
 	
+	#MARK: 
 	on viewDidLoad()
 		continue viewDidLoad()
 		
