@@ -15,6 +15,7 @@
 		5E20BFD32713CDE0006A39F7 /* MainViewController.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 5E20BFD22713CDE0006A39F7 /* MainViewController.applescript */; };
 		5E20C0352713E337006A39F7 /* SheetWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E20C0342713E31F006A39F7 /* SheetWrapper.framework */; };
 		5E20C0362713E337006A39F7 /* SheetWrapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5E20C0342713E31F006A39F7 /* SheetWrapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5E3F5826271507D400271BD9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5E3F5825271507D400271BD9 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		5E20BFC72713CAE2006A39F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E20BFD22713CDE0006A39F7 /* MainViewController.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = MainViewController.applescript; sourceTree = "<group>"; };
 		5E20C02F2713E31F006A39F7 /* SheetWrapper.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SheetWrapper.xcodeproj; path = SheetWrapper/SheetWrapper.xcodeproj; sourceTree = "<group>"; };
+		5E3F5825271507D400271BD9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 		5E20BF8A2713C9CF006A39F7 = {
 			isa = PBXGroup;
 			children = (
+				5E3F5825271507D400271BD9 /* README.md */,
 				5E20BF982713C9D0006A39F7 /* ASOC_Sheet_test */,
 				5E20BF952713C9CF006A39F7 /* Frameworks */,
 				5E20BF942713C9CF006A39F7 /* Products */,
@@ -187,6 +190,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E3F5826271507D400271BD9 /* README.md in Resources */,
 				5E20BF9C2713C9E8006A39F7 /* Assets.xcassets in Resources */,
 				5E20BFC82713CAE2006A39F7 /* Main.storyboard in Resources */,
 			);
